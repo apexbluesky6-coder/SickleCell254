@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Center of Sickle Cell Warriors",
-  description: "Learn how we protect your data at Center of Sickle Cell Warriors.",
+  title: "Privacy Policy - Center for Sickle Cell Warriors",
+  description: "Learn how we protect your data at Center for Sickle Cell Warriors.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
         
         <div className="prose prose-lg max-w-none text-gray-dark prose-headings:font-heading prose-headings:text-foreground prose-a:text-primary">
           <p>
-            At Center of Sickle Cell Warriors (Center of Sickle Cell Warriors), we are committed to protecting the privacy and security of our donors, partners, beneficiaries, and website visitors. This Privacy Policy describes how we collect, use, and handle your information.
+            At Center for Sickle Cell Warriors (Center for Sickle Cell Warriors), we are committed to protecting the privacy and security of our donors, partners, beneficiaries, and website visitors. This Privacy Policy describes how we collect, use, and handle your information.
           </p>
 
           <h2>1. Information We Collect</h2>

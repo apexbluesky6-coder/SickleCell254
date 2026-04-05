@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Thank You - Center of Sickle Cell Warriors",
+  title: "Thank You - Center for Sickle Cell Warriors",
 };
 
 export default function ThankYouPage() {

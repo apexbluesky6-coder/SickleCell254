@@ -20,7 +20,7 @@ const TIMELINE = [
   { year: "2020", title: "NHIF partnerships established for patient coverage" },
   { year: "2021", title: "Expanded to 6 counties across Kenya" },
   { year: "2022", title: "Sickle Cell Livelihood Fund launched" },
-  { year: "2023", title: "BBC health check feature on Center of Sickle Cell Warriors's work" },
+  { year: "2023", title: "BBC health check feature on Center for Sickle Cell Warriors's work" },
   { year: "2024", title: "Continued growth and advocacy" },
 ];
 
@@ -76,10 +76,10 @@ export default function AboutPage() {
             <h2 className="text-4xl font-heading font-bold text-foreground mb-6 leading-tight">Founded by a patient, for patients</h2>
             <div className="space-y-6 text-gray-dark leading-relaxed text-lg">
               <p>
-                In 2017, Lea initiated Center of Sickle Cell Warriors to redefine sickle cell response in Kenya. Inspired by stories of patients like herself from the six counties she ventured, she wondered why not use their stories to inform policies and health systems closest to them?
+                In 2017, Lea initiated Center for Sickle Cell Warriors to redefine sickle cell response in Kenya. Inspired by stories of patients like herself from the six counties she ventured, she wondered why not use their stories to inform policies and health systems closest to them?
               </p>
               <p>
-                As a sickle cell patient herself, Lea brings lived experience to every decision Center of Sickle Cell Warriors makes — ensuring the organisation stays grounded in the realities of those it serves.
+                As a sickle cell patient herself, Lea brings lived experience to every decision Center for Sickle Cell Warriors makes — ensuring the organisation stays grounded in the realities of those it serves.
               </p>
             </div>
           </motion.div>

@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CookieBanner from "@/components/layout/CookieBanner";
+import FloatingWhatsApp from "@/components/layout/FloatingWhatsApp";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", weight: ["400", "500", "600"] });
@@ -11,21 +12,21 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://africasicklecell.org'),
   title: {
-    default: "Center of Sickle Cell Warriors",
-    template: "%s | Center of Sickle Cell Warriors"
+    default: "Center for Sickle Cell Warriors",
+    template: "%s | Center for Sickle Cell Warriors"
   },
   description: "Improving survival, health and wellbeing of sickle cell patients in rural Africa through access to comprehensive care.",
   openGraph: {
-    title: "Center of Sickle Cell Warriors",
+    title: "Center for Sickle Cell Warriors",
     description: "Improving survival, health and wellbeing of sickle cell patients in rural Africa.",
     url: "https://africasicklecell.org",
-    siteName: "Center of Sickle Cell Warriors",
+    siteName: "Center for Sickle Cell Warriors",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Center of Sickle Cell Warriors",
+    title: "Center for Sickle Cell Warriors",
     description: "Improving survival, health and wellbeing of sickle cell patients in rural Africa.",
   },
 };
@@ -44,6 +45,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <CookieBanner />
+        <FloatingWhatsApp />
       </body>
     </html>
   );

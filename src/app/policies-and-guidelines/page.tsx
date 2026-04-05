@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 
 const DOCUMENTS = [
   { id: 1, title: "Kenya National Guidelines for the Management of Sickle Cell Disease", org: "Ministry of Health Kenya", year: "2021", type: "National Policy", size: "2.4 MB" },
-  { id: 2, title: "County Level Integration of SCD Care: A Framework", org: "Center of Sickle Cell Warriors", year: "2023", type: "Framework", size: "1.1 MB" },
+  { id: 2, title: "County Level Integration of SCD Care: A Framework", org: "Center for Sickle Cell Warriors", year: "2023", type: "Framework", size: "1.1 MB" },
   { id: 3, title: "Essential Medicines List Update for Hemoglobinopathies", org: "Ministry of Health Kenya", year: "2022", type: "Guidelines", size: "850 KB" },
-  { id: 4, title: "Economic Impact of SCD on Rural Households in Kisumu", org: "Center of Sickle Cell Warriors Research", year: "2023", type: "Research Paper", size: "3.2 MB" },
+  { id: 4, title: "Economic Impact of SCD on Rural Households in Kisumu", org: "Center for Sickle Cell Warriors Research", year: "2023", type: "Research Paper", size: "3.2 MB" },
   { id: 5, title: "Newborn Screening Protocols for County Hospitals", org: "World Health Organization", year: "2020", type: "Protocol", size: "1.8 MB" },
-  { id: 6, title: "SCD Patient Triage Standards", org: "Center of Sickle Cell Warriors", year: "2024", type: "Protocol", size: "600 KB" },
+  { id: 6, title: "SCD Patient Triage Standards", org: "Center for Sickle Cell Warriors", year: "2024", type: "Protocol", size: "600 KB" },
 ];
 
 export default function PoliciesPage() {

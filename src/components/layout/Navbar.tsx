@@ -43,7 +43,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 z-50">
           <Image src="/logo/photo_2026-04-05_17-06-34.jpg" width={40} height={40} alt="Logo" className="rounded-full object-cover" />
           <span className={cn("font-heading font-bold text-xl", isScrolled ? "text-primary" : "text-primary")}>
-            Center of Sickle Cell Warriors
+            Center for Sickle Cell Warriors
           </span>
         </Link>
 

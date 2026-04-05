@@ -13,11 +13,25 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <Image src="/logo/photo_2026-04-05_17-06-34.jpg" width={40} height={40} alt="Logo" className="rounded-full object-cover" />
-              <span className="font-heading font-bold text-xl">Center of Sickle Cell Warriors</span>
+              <span className="font-heading font-bold text-xl">Center for Sickle Cell Warriors</span>
             </div>
-            <p className="text-gray-mid text-sm leading-relaxed max-w-sm">
+            <p className="text-gray-mid text-sm leading-relaxed max-w-sm mb-6">
               Improving the survival, health and wellbeing of sickle cell patients and their households through access to comprehensive, high quality, timely and affordable care.
             </p>
+            <div className="flex flex-col gap-3 mb-6 border-l-2 border-primary pl-4">
+              <a href="https://wa.me/254722873489" className="text-white hover:text-primary-light transition-colors flex items-center gap-3 text-sm font-medium">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                +254 722 873489
+              </a>
+              <a href="mailto:info@centerforsicklecell.org" className="text-white hover:text-primary-light transition-colors flex items-center gap-3 text-sm font-medium">
+                <Mail size={18} />
+                info@centerforsicklecell.org
+              </a>
+              <div className="text-gray-mid flex items-start gap-3 text-sm font-medium">
+                <Globe size={18} className="shrink-0 text-white" />
+                Nairobi, Kenya
+              </div>
+            </div>
             <div className="flex items-center gap-4">
               <a href="https://facebook.com/africasicklecell" target="_blank" rel="noopener noreferrer" className="text-gray-mid hover:text-white transition-colors" aria-label="Facebook">
                 <Globe size={20} />
@@ -83,7 +97,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-dark flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-mid text-xs">
-            &copy; {new Date().getFullYear()} Center of Sickle Cell Warriors. All rights reserved.
+            &copy; {new Date().getFullYear()} Center for Sickle Cell Warriors. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="text-gray-mid hover:text-white transition-colors text-xs">Privacy Policy</Link>
