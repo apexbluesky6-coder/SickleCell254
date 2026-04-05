@@ -12,7 +12,7 @@ export default function Testimonial() {
         {/* Left Side: Photo */}
         <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[600px]">
           <Image
-            src="https://images.unsplash.com/photo-1542840410-3092f99611a3?q=80&w=1974&auto=format&fit=crop"
+            src="/img/photo_2026-04-05_17-06-19.jpg"
             alt="Patient smiling"
             fill
             className="object-cover"
