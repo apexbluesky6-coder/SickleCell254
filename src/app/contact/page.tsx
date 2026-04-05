@@ -54,8 +54,19 @@ export default function ContactPage() {
                    </div>
                    <div>
                      <h4 className="font-bold text-foreground text-lg mb-1">Email address</h4>
-                     <a href="mailto:africasicklecellorg@gmail.com" className="text-gray-dark hover:text-primary transition-colors">
-                       africasicklecellorg@gmail.com
+                     <a href="mailto:info@centerforsicklecell.org" className="text-gray-dark hover:text-primary transition-colors">
+                       info@centerforsicklecell.org
+                     </a>
+                   </div>
+                 </div>
+                 <div className="flex gap-4 mb-8">
+                   <div className="bg-white text-primary w-12 h-12 rounded-full flex items-center justify-center shrink-0 shadow-sm border border-gray-light">
+                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                   </div>
+                   <div>
+                     <h4 className="font-bold text-foreground text-lg mb-1">Phone & WhatsApp</h4>
+                     <a href="https://wa.me/254722873489" className="text-gray-dark hover:text-primary transition-colors">
+                       0722 873489
                      </a>
                    </div>
                  </div>
@@ -68,7 +79,7 @@ export default function ContactPage() {
                      <h4 className="font-bold text-foreground text-lg mb-1">Office Location</h4>
                      <p className="text-gray-dark leading-relaxed">
                        Nairobi, Kenya<br/>
-                       (Operating across 6 high-burden counties)
+                       (Partnering with Metropolitan Hospital and JOOTRH)
                      </p>
                    </div>
                  </div>

@@ -7,7 +7,7 @@ import Link from "next/link";
 const CARDS = [
   {
     title: "Patient & Caregiver Support",
-    body: "Sickle Cell 254 equips patients and caregivers with skills and resources to reduce sickle cell suffering and achieve their fullest potential.",
+    body: "Center of Sickle Cell Warriors equips patients and caregivers with skills and resources to reduce sickle cell suffering and achieve their fullest potential.",
     icon: Users,
   },
   {
@@ -17,7 +17,7 @@ const CARDS = [
   },
   {
     title: "Advocacy & Policy",
-    body: "Sickle Cell 254 informs policy to improve equitable access to sickle cell care, engaging county governments and national health departments.",
+    body: "Center of Sickle Cell Warriors informs policy to improve equitable access to sickle cell care, engaging county governments and national health departments.",
     icon: Landmark,
   }
 ];

@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background Image - Placeholder for now */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('/img/photo_2026-04-05_17-05-15.jpg')" }}
       />
       
       {/* Gradient Overlay */}

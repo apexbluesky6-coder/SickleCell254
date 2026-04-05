@@ -4,7 +4,7 @@ import { getArticles } from "@/lib/cms";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "News & Stories - Sickle Cell 254 Initiative",
+  title: "News & Stories - Center of Sickle Cell Warriors",
 };
 
 export default async function NewsPage() {

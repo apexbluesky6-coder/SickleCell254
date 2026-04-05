@@ -3,7 +3,7 @@ import { Heart, Landmark, PiggyBank, Users } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Donate - Sickle Cell 254 Initiative",
+  title: "Donate - Center of Sickle Cell Warriors",
   description: "Make a difference today. Support people living with sickle cell in rural Kenya.",
 };
 
@@ -59,7 +59,7 @@ export default function DonatePage() {
                 { title: "Legacy Gift", icon: PiggyBank, desc: "Include us in your will" },
                 { title: "Volunteer", icon: Users, desc: "Give your time" },
               ].map((way, idx) => (
-                <a href="mailto:africasicklecellorg@gmail.com" key={idx} className="block group">
+                <a href="mailto:info@centerforsicklecell.org" key={idx} className="block group">
                   <div className="bg-white border border-gray-light rounded-xl p-6 hover:shadow-card transition-all text-center h-full">
                     <way.icon className="mx-auto mb-4 text-primary group-hover:scale-110 transition-transform" size={32} />
                     <h5 className="font-bold text-foreground mb-1 group-hover:text-primary transition-colors">{way.title}</h5>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 "use client";
 
 import { useState, useEffect } from "react";
@@ -40,11 +41,9 @@ export default function Navbar() {
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 z-50">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="10" stroke="#8B1A1A" strokeWidth="4" fill="#B22222" />
-          </svg>
+          <Image src="/logo/photo_2026-04-05_17-06-34.jpg" width={40} height={40} alt="Logo" className="rounded-full object-cover" />
           <span className={cn("font-heading font-bold text-xl", isScrolled ? "text-primary" : "text-primary")}>
-            Sickle Cell 254
+            Center of Sickle Cell Warriors
           </span>
         </Link>
 

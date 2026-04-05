@@ -6,10 +6,10 @@ import Link from "next/link";
 import Partners from "@/components/sections/Partners";
 
 const TEAM = [
-  { name: "Lea D.", role: "Founder & Executive Director", photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop" },
-  { name: "Dr. Samuel O.", role: "Medical Advisory Lead", photo: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=600&auto=format&fit=crop" },
-  { name: "Jane M.", role: "Community Programs Director", photo: "https://images.unsplash.com/photo-1589156191108-c7ea6f28c68b?q=80&w=600&auto=format&fit=crop" },
-  { name: "Peter K.", role: "Advocacy Coordinator", photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop" },
+  { name: "Lea D.", role: "Founder & Executive Director", photo: "/img/photo_2026-04-05_17-06-31.jpg" },
+  { name: "Dr. Samuel O.", role: "Medical Advisory Lead", photo: "/img/photo_2026-04-05_17-06-32.jpg" },
+  { name: "Jane M.", role: "Community Programs Director", photo: "/img/photo_2026-04-05_17-05-15.jpg" },
+  { name: "Peter K.", role: "Advocacy Coordinator", photo: "/img/photo_2026-04-05_17-05-33.jpg" },
 ];
 
 const TIMELINE = [
@@ -19,7 +19,7 @@ const TIMELINE = [
   { year: "2020", title: "NHIF partnerships established for patient coverage" },
   { year: "2021", title: "Expanded to 6 counties across Kenya" },
   { year: "2022", title: "Sickle Cell Livelihood Fund launched" },
-  { year: "2023", title: "BBC health check feature on Sickle Cell 254's work" },
+  { year: "2023", title: "BBC health check feature on Center of Sickle Cell Warriors's work" },
   { year: "2024", title: "Continued growth and advocacy" },
 ];
 
@@ -30,7 +30,7 @@ export default function AboutPage() {
       <section className="relative h-[40vh] min-h-[300px] flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=2070&auto=format&fit=crop" 
+            src="/img/photo_2026-04-05_17-06-19.jpg" 
             alt="About us background" 
             fill 
             className="object-cover"
@@ -59,7 +59,7 @@ export default function AboutPage() {
             className="w-full lg:w-1/2 relative aspect-square max-w-lg mx-auto rounded-2xl overflow-hidden shadow-2xl"
           >
             <Image 
-              src="https://images.unsplash.com/photo-1531123414708-5420ed6771e8?q=80&w=1000&auto=format&fit=crop" 
+              src="/img/photo_2026-04-05_17-06-27.jpg" 
               alt="Founder Lea" 
               fill 
               className="object-cover"
@@ -75,10 +75,10 @@ export default function AboutPage() {
             <h2 className="text-4xl font-heading font-bold text-foreground mb-6 leading-tight">Founded by a patient, for patients</h2>
             <div className="space-y-6 text-gray-dark leading-relaxed text-lg">
               <p>
-                In 2017, Lea initiated Sickle Cell 254 Initiative to redefine sickle cell response in Kenya. Inspired by stories of patients like herself from the six counties she ventured, she wondered why not use their stories to inform policies and health systems closest to them?
+                In 2017, Lea initiated Center of Sickle Cell Warriors to redefine sickle cell response in Kenya. Inspired by stories of patients like herself from the six counties she ventured, she wondered why not use their stories to inform policies and health systems closest to them?
               </p>
               <p>
-                As a sickle cell patient herself, Lea brings lived experience to every decision Sickle Cell 254 makes — ensuring the organisation stays grounded in the realities of those it serves.
+                As a sickle cell patient herself, Lea brings lived experience to every decision Center of Sickle Cell Warriors makes — ensuring the organisation stays grounded in the realities of those it serves.
               </p>
             </div>
           </motion.div>

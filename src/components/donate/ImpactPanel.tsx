@@ -32,7 +32,7 @@ export default function ImpactPanel({ amount }: ImpactPanelProps) {
         <p className="text-gray-dark italic mb-4">
           "Now I know how to manage sickle cell... You have provided NHIF which allows me to access medicines. And helped create income generating activities that gets us money to sustain us."
         </p>
-        <p className="font-bold text-sm text-foreground">— Patient, Sickle Cell 254 program beneficiary</p>
+        <p className="font-bold text-sm text-foreground">— Patient, Center of Sickle Cell Warriors program beneficiary</p>
       </div>
     </div>
   );

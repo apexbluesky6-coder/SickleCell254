@@ -88,7 +88,7 @@ export default function WhatWeDoPage() {
                 Africa Sickle Cell designs and executes sub-national sickle cell programs in areas of highest need for holistic sickle cell care. We do this in partnership with local government, partners and SCD patients in high burden communities.
               </p>
               <ul className="space-y-4 list-disc list-inside text-gray-dark text-lg leading-relaxed">
-                <li><strong className="text-foreground">County government department of health</strong> has made available SCD essential medicines in tertiary hospitals (through Sickle Cell 254 advocacy)</li>
+                <li><strong className="text-foreground">County government department of health</strong> has made available SCD essential medicines in tertiary hospitals (through Center of Sickle Cell Warriors advocacy)</li>
                 <li><strong className="text-foreground">Capacity built healthcare workers</strong> to manage and provide acute care for sickle cell complications</li>
                 <li><strong className="text-foreground">NHIF insurance coverage</strong> facilitated for registered patients</li>
               </ul>
@@ -113,7 +113,7 @@ export default function WhatWeDoPage() {
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <h2 className="text-4xl font-heading font-bold text-foreground mb-6">Advocacy & Policy Reform</h2>
           <p className="text-lg text-gray-dark leading-relaxed max-w-3xl mx-auto mb-12">
-            Sickle Cell 254 forms strong relationships and agreements within and across communities of interest to ensure continued political will for health finance and policy.
+            Center of Sickle Cell Warriors forms strong relationships and agreements within and across communities of interest to ensure continued political will for health finance and policy.
           </p>
         </motion.div>
         

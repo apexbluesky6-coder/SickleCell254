@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Sickle Cell 254 Initiative",
-  description: "Learn how we protect your data at Sickle Cell 254.",
+  title: "Privacy Policy - Center of Sickle Cell Warriors",
+  description: "Learn how we protect your data at Center of Sickle Cell Warriors.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
         
         <div className="prose prose-lg max-w-none text-gray-dark prose-headings:font-heading prose-headings:text-foreground prose-a:text-primary">
           <p>
-            At Sickle Cell 254 Initiative (Sickle Cell 254), we are committed to protecting the privacy and security of our donors, partners, beneficiaries, and website visitors. This Privacy Policy describes how we collect, use, and handle your information.
+            At Center of Sickle Cell Warriors (Center of Sickle Cell Warriors), we are committed to protecting the privacy and security of our donors, partners, beneficiaries, and website visitors. This Privacy Policy describes how we collect, use, and handle your information.
           </p>
 
           <h2>1. Information We Collect</h2>
@@ -45,7 +45,7 @@ export default function PrivacyPolicyPage() {
 
           <h2>4. Your Rights</h2>
           <p>
-            You have the right to request access to the personal data we hold about you, request corrections, or request deletion of your data. To exercise these rights or to unsubscribe from our communications, please contact us at <a href="mailto:africasicklecellorg@gmail.com">africasicklecellorg@gmail.com</a>.
+            You have the right to request access to the personal data we hold about you, request corrections, or request deletion of your data. To exercise these rights or to unsubscribe from our communications, please contact us at <a href="mailto:info@centerforsicklecell.org">info@centerforsicklecell.org</a>.
           </p>
 
           <h2>5. Cookies</h2>

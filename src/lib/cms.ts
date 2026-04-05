@@ -13,22 +13,22 @@ export const mockArticles: Article[] = [
   {
     slug: "empowering-caregivers-in-kisumu",
     title: "Empowering Caregivers: New Training Initiative in Kisumu County",
-    excerpt: "Last week, Sickle Cell 254 launched a rigorous 5-day training program for 50 community healthcare workers, focusing on the acute management of sickle cell crises in rural settings.",
-    content: "<p>Last week, Sickle Cell 254 launched a rigorous 5-day training program for 50 community healthcare workers, focusing on the acute management of sickle cell crises in rural settings. The lack of specialized knowledge in rural clinics has historically been a major barrier to the survival of patients experiencing sickle cell pain crises.</p><p>Through our Health Systems pillar, we brought together leading hematologists from the national hospital to conduct hands-on training. This ensures that a patient arriving at a local dispensary receives the same standard of emergency care as they would in the capital.</p>",
+    excerpt: "Last week, Center of Sickle Cell Warriors launched a rigorous 5-day training program for 50 community healthcare workers, focusing on the acute management of sickle cell crises in rural settings.",
+    content: "<p>Last week, Center of Sickle Cell Warriors launched a rigorous 5-day training program for 50 community healthcare workers, focusing on the acute management of sickle cell crises in rural settings. The lack of specialized knowledge in rural clinics has historically been a major barrier to the survival of patients experiencing sickle cell pain crises.</p><p>Through our Health Systems pillar, we brought together leading hematologists from the national hospital to conduct hands-on training. This ensures that a patient arriving at a local dispensary receives the same standard of emergency care as they would in the capital.</p>",
     category: "Health Systems",
     date: "2024-03-15",
     author: "Jane M.",
-    imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
+    imageUrl: "/img/photo_2026-04-05_17-05-33.jpg"
   },
   {
     slug: "patient-story-emmanuel",
     title: "From Weekly Hospital Visits to Thriving in School: Emmanuel's Story",
     excerpt: "Emmanuel, a 12-year-old from Kakamega, used to miss weeks of school due to severe pain crises. Today, thanks to the Livelihood Fund and proper care, he's at the top of his class.",
-    content: "<p>Emmanuel, a 12-year-old from Kakamega, used to miss weeks of school due to severe pain crises. The recurrent hospitalizations drained his family's meager resources. Through the Sickle Cell Livelihood Fund, Sickle Cell 254 enrolled Emmanuel's family in the NHIF (National Hospital Insurance Fund).</p><p>With a reliable supply of hydroxyurea and folic acid, Emmanuel's crises have reduced dramatically. Today, he is back in school, leading his class in mathematics and dreaming of becoming a doctor.</p>",
+    content: "<p>Emmanuel, a 12-year-old from Kakamega, used to miss weeks of school due to severe pain crises. The recurrent hospitalizations drained his family's meager resources. Through the Sickle Cell Livelihood Fund, Center of Sickle Cell Warriors enrolled Emmanuel's family in the NHIF (National Hospital Insurance Fund).</p><p>With a reliable supply of hydroxyurea and folic acid, Emmanuel's crises have reduced dramatically. Today, he is back in school, leading his class in mathematics and dreaming of becoming a doctor.</p>",
     category: "Patient Stories",
     date: "2024-02-28",
     author: "Peter K.",
-    imageUrl: "https://images.unsplash.com/photo-1542840410-3092f99611a3?q=80&w=1974&auto=format&fit=crop"
+    imageUrl: "/img/photo_2026-04-05_17-06-19.jpg"
   },
   {
     slug: "advocacy-win-essential-medicines",
@@ -38,7 +38,7 @@ export const mockArticles: Article[] = [
     category: "Advocacy",
     date: "2024-01-10",
     author: "Lea D.",
-    imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=2070&auto=format&fit=crop"
+    imageUrl: "/img/photo_2026-04-05_17-06-27.jpg"
   },
   {
     slug: "understanding-livelihoods-scd",
@@ -48,7 +48,7 @@ export const mockArticles: Article[] = [
     category: "Livelihoods",
     date: "2023-11-05",
     author: "Dr. Samuel O.",
-    imageUrl: "https://images.unsplash.com/photo-1593113630400-ea4288922497?q=80&w=2070&auto=format&fit=crop"
+    imageUrl: "/img/photo_2026-04-05_17-06-30.jpg"
   }
 ];
 

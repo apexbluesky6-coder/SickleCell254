@@ -1,3 +1,4 @@
+import Image from "next/image";
 "use client";
 
 import Link from "next/link";
@@ -11,10 +12,8 @@ export default function Footer() {
           {/* Column 1: Brand & Mission */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="10" stroke="#8B1A1A" strokeWidth="4" fill="#B22222" />
-              </svg>
-              <span className="font-heading font-bold text-xl">Sickle Cell 254</span>
+              <Image src="/logo/photo_2026-04-05_17-06-34.jpg" width={40} height={40} alt="Logo" className="rounded-full object-cover" />
+              <span className="font-heading font-bold text-xl">Center of Sickle Cell Warriors</span>
             </div>
             <p className="text-gray-mid text-sm leading-relaxed max-w-sm">
               Improving the survival, health and wellbeing of sickle cell patients and their households through access to comprehensive, high quality, timely and affordable care.
@@ -35,7 +34,10 @@ export default function Footer() {
               <a href="#" className="text-gray-mid hover:text-white transition-colors" aria-label="YouTube">
                 <Video size={20} />
               </a>
-              <a href="mailto:africasicklecellorg@gmail.com" className="text-gray-mid hover:text-white transition-colors" aria-label="Email">
+              <a href="https://wa.me/254722873489" target="_blank" rel="noopener noreferrer" className="text-gray-mid hover:text-white transition-colors" aria-label="WhatsApp">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </a>
+              <a href="mailto:info@centerforsicklecell.org" className="text-gray-mid hover:text-white transition-colors" aria-label="Email">
                 <Mail size={20} />
               </a>
             </div>
@@ -81,7 +83,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-dark flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-mid text-xs">
-            &copy; {new Date().getFullYear()} Sickle Cell 254 Initiative. All rights reserved.
+            &copy; {new Date().getFullYear()} Center of Sickle Cell Warriors. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="text-gray-mid hover:text-white transition-colors text-xs">Privacy Policy</Link>
