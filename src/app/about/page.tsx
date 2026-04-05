@@ -112,23 +112,23 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-heading font-bold text-foreground mb-16">Meet our team</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <section className="py-20 container mx-auto px-4">
+        <h2 className="text-4xl font-heading font-bold text-foreground mb-16 text-center">Meet our team</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {TEAM.map((member, idx) => (
             <motion.div 
               key={idx}
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="flex flex-col items-center"
+              className="flex flex-col text-left group"
             >
-              <div className="relative w-48 h-48 rounded-full overflow-hidden mb-6 shadow-xl border-4 border-muted">
-                <Image src={member.photo} alt={member.name} fill className="object-cover" />
+              <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden mb-5 shadow-sm border border-gray-light bg-muted">
+                <Image src={member.photo} alt={member.name} fill className="object-cover group-hover:scale-[1.03] transition-transform duration-500" />
               </div>
-              <h3 className="text-xl font-bold text-foreground">{member.name}</h3>
-              <p className="text-primary font-medium">{member.role}</p>
+              <h3 className="text-xl font-bold text-foreground px-1">{member.name}</h3>
+              <p className="text-primary font-medium px-1">{member.role}</p>
             </motion.div>
           ))}
         </div>
