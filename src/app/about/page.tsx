@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import Partners from "@/components/sections/Partners";
+import { User } from "lucide-react";
 
 const TEAM = [
   { name: "Lea D.", role: "Founder & Executive Director", photo: "/img/photo_2026-04-05_17-06-31.jpg" },
@@ -122,10 +123,10 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="flex flex-col text-left group"
+              className="flex flex-col text-center items-center group"
             >
-              <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden mb-5 shadow-sm border border-gray-light bg-muted">
-                <Image src={member.photo} alt={member.name} fill className="object-cover group-hover:scale-[1.03] transition-transform duration-500" />
+              <div className="w-24 h-24 rounded-full bg-accent/10 flex items-center justify-center mb-5 text-accent border border-accent/20 group-hover:bg-accent group-hover:text-white transition-colors duration-300 shadow-sm">
+                <User size={40} strokeWidth={1.5} />
               </div>
               <h3 className="text-xl font-bold text-foreground px-1">{member.name}</h3>
               <p className="text-primary font-medium px-1">{member.role}</p>
