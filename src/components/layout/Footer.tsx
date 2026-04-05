@@ -14,7 +14,7 @@ export default function Footer() {
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="10" stroke="#8B1A1A" strokeWidth="4" fill="#B22222" />
               </svg>
-              <span className="font-heading font-bold text-xl">ASCO</span>
+              <span className="font-heading font-bold text-xl">Sickle Cell 254</span>
             </div>
             <p className="text-gray-mid text-sm leading-relaxed max-w-sm">
               Improving the survival, health and wellbeing of sickle cell patients and their households through access to comprehensive, high quality, timely and affordable care.
@@ -81,7 +81,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-dark flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-mid text-xs">
-            &copy; {new Date().getFullYear()} Africa Sickle Cell Organisation. All rights reserved.
+            &copy; {new Date().getFullYear()} Sickle Cell 254 Initiative. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="text-gray-mid hover:text-white transition-colors text-xs">Privacy Policy</Link>

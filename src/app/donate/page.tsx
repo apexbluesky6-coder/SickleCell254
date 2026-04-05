@@ -3,7 +3,7 @@ import { Heart, Landmark, PiggyBank, Users } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Donate - Africa Sickle Cell Organisation",
+  title: "Donate - Sickle Cell 254 Initiative",
   description: "Make a difference today. Support people living with sickle cell in rural Kenya.",
 };
 

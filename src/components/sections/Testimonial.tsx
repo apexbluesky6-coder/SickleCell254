@@ -36,7 +36,7 @@ export default function Testimonial() {
             <div className="flex items-center gap-4 mb-10 border-l-4 border-primary pl-4">
               <div>
                 <p className="font-bold text-lg text-foreground">Patient</p>
-                <p className="text-gray-dark">ASCO program beneficiary</p>
+                <p className="text-gray-dark">Sickle Cell 254 program beneficiary</p>
               </div>
             </div>
 

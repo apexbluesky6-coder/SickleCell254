@@ -44,7 +44,7 @@ export default function Navbar() {
             <circle cx="12" cy="12" r="10" stroke="#8B1A1A" strokeWidth="4" fill="#B22222" />
           </svg>
           <span className={cn("font-heading font-bold text-xl", isScrolled ? "text-primary" : "text-primary")}>
-            ASCO
+            Sickle Cell 254
           </span>
         </Link>
 

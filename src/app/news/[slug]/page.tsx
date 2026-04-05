@@ -12,7 +12,7 @@ export async function generateMetadata(
   const article = await getArticleBySlug(params.slug);
   if (!article) return { title: "Not Found" };
   return {
-    title: `${article.title} - Africa Sickle Cell Organisation`,
+    title: `${article.title} - Sickle Cell 254 Initiative`,
     description: article.excerpt,
   };
 }

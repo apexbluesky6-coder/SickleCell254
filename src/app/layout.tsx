@@ -11,21 +11,21 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://africasicklecell.org'),
   title: {
-    default: "Africa Sickle Cell Organisation",
-    template: "%s | Africa Sickle Cell Organisation"
+    default: "Sickle Cell 254 Initiative",
+    template: "%s | Sickle Cell 254 Initiative"
   },
   description: "Improving survival, health and wellbeing of sickle cell patients in rural Africa through access to comprehensive care.",
   openGraph: {
-    title: "Africa Sickle Cell Organisation",
+    title: "Sickle Cell 254 Initiative",
     description: "Improving survival, health and wellbeing of sickle cell patients in rural Africa.",
     url: "https://africasicklecell.org",
-    siteName: "Africa Sickle Cell Organisation",
+    siteName: "Sickle Cell 254 Initiative",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Africa Sickle Cell Organisation",
+    title: "Sickle Cell 254 Initiative",
     description: "Improving survival, health and wellbeing of sickle cell patients in rural Africa.",
   },
 };
